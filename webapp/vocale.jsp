@@ -20,10 +20,6 @@
                     numarVocale++;
                 }
             }
-
-            out.println("<h3>Textul \"" + text + "\" contine " + numarVocale + " vocale.</h3>");
-        } else {
-            out.println("<p style='color:red;'>Te rog sa trimiti parametrul 'text' in URL.</p>");
         }
     %>
 </body>
